@@ -1,6 +1,6 @@
 {
   "name": "react-native-clear-app-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "清理App缓存",
   "main": "index.js",
   "scripts": {
