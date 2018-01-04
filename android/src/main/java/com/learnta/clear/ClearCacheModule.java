@@ -56,7 +56,8 @@ public class ClearCacheModule extends ReactContextBaseJavaModule {
     //清除缓存
     @ReactMethod
     public void clearAppCache(Callback callback) {
-        this.clearAppCache(callback);
+        ClearCacheAsyncTask asyncTask = new ClearCacheAsyncTask(myclearCacheModule, callback);
+        asyncTask.execute(10);
     }
 
     /**
@@ -173,13 +174,6 @@ public class ClearCacheModule extends ReactContextBaseJavaModule {
     /**
      * 清除app缓存
      */
-    public void clearAppCache(Callback callback) {
-
-        ClearCacheAsyncTask asyncTask = new ClearCacheAsyncTask(myclearCacheModule, callback);
-        asyncTask.execute(10);
-
-    }
-
     public void clearCache() {
 
         getReactApplicationContext().deleteDatabase("webview.db");
