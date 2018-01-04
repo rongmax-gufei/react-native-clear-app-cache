@@ -1,0 +1,19 @@
+{
+  "name": "react-native-clear-app-cache",
+  "version": "1.0.0",
+  "description": "清理App缓存",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midas-gufei/react-native-clear-app-cache.git"
+  },
+  "author": "gufei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midas-gufei/react-native-clear-app-cache/issues"
+  },
+  "homepage": "https://github.com/midas-gufei/react-native-clear-app-cache#readme"
+}
