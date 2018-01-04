@@ -17,12 +17,6 @@ Then link with:
 
  `react-native link react-native-clear-app-cache`
 
-#### iOS
-
-* 右键 Libraries 选择Add Files To "Your app name" 进入../node_modules/react-native-clear-app-cache/ios/目录, 选择RCTClearCacheModule.xcodeproj 添加。
-
-* 在项目Build Phases下的Link Binary With Libraries 下, 添加 libRCTClearCacheModule.a 库文件
-
 ## 运行示例
 
 [Example](https://github.com/midas-gufei/RNClearAppCacheExample)
