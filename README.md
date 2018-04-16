@@ -19,6 +19,7 @@ Then link with:
 
 ## 运行示例
 
-[Example](https://github.com/midas-gufei/RNClearAppCacheExample)
+[Example](https://github.com/midas-gufei/react-native-clear-cache-demo)
+
 
 
