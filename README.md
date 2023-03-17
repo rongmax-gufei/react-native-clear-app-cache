@@ -5,6 +5,8 @@
 
 # react-native-clear-app-cache 
 
+- 科学上网：https://yoga.codepay.online/auth/register?code=0a73e30131 每日签到，没费赠送流量
+
 ## 功能介绍
 
 - 支持 iOS Android 清理app缓存
